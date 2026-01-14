@@ -9,7 +9,7 @@
 }*/
 
 //missing number...
-public class day01 {
+/*public class day01 {
 	public static void main(String[] args) {
 		int a[]= {1,2,3,4,5,6,8,9,10};
 		int sum1=0;
@@ -23,5 +23,21 @@ public class day01 {
 		}
 		System.out.println("sum of range of array element:" +sum2);
 		System.out.println("missing no:" +(sum2-sum1));
+	}
+}*/
+
+//even odd number...
+import java.util.Scanner;
+public class day01{
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter your Number:");
+		int num=sc.nextInt();
+		if(num%2==0)
+			System.out.println("Num is even...");
+		else 
+			System.out.println("num is odd..");
+		
+		
 	}
 }
