@@ -38,6 +38,6 @@ public class day01{
 		else 
 			System.out.println("num is odd..");
 		
-		
+		sc.close();
 	}
 }

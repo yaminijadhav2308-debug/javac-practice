@@ -93,3 +93,26 @@ public class day02{
 	}
 }*/
 
+//print even no from 1 to 50...
+/*public class day02{
+	public static void main(String[] args) {
+		for(int i=1;i<=50;i++) {
+			if(i%2==0)
+				System.out.println(i);
+		}
+	}
+}*/
+
+//using Scanner class..
+import java.util.Scanner;
+public class day02{
+	public static void main(String[] args){
+	Scanner sc=new Scanner(System.in);
+	System.out.println("Enter a no..");
+	int num=sc.nextInt();
+	for(int i=1;i<=num;i++) {
+		if(i%2==0)
+			System.out.println(i);
+	}
+	}
+}
