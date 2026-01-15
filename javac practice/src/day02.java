@@ -56,3 +56,40 @@ public class day02{
 	}
 }*/
 
+//program to check whether a number is positive, negative, or zero...
+/*import java.util.Scanner;
+public class day02{
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter a number:");
+		int num=sc.nextInt();
+		if(num>0)
+			System.out.println("no is positive");
+		else if(num<0)
+			System.out.println("no is negative");
+		else
+			System.out.println("no is zero");
+		
+	}
+}*/
+
+//Largest no..
+/*import java.util.Scanner;
+public class day02{
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter first num:");
+		int a = sc.nextInt();
+		System.out.println("enter second num:");
+		int b = sc.nextInt();
+		System.out.println("enter third num:");
+		int c = sc.nextInt();
+		if(a>=b && a>=c)
+			System.out.println("Largest no is" +a);
+		else if(b>=a && b>=c)
+			System.out.println("Largest no is" +b);
+		else
+			System.out.println("Largest no is" +c);
+	}
+}*/
+
