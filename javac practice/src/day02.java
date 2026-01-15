@@ -1,5 +1,5 @@
 //palindrome no...
-import java.util.Scanner;
+/*import java.util.Scanner;
 public class day02 {
 
 	public static void main(String[] args) {
@@ -19,4 +19,40 @@ public class day02 {
 
 	}
 
-}
+}*/
+
+//arithmatic operations....
+
+/*import java.util.Scanner;
+public class day02{
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter first number:");
+		int a=sc.nextInt();
+		System.out.println("Enter Second Number:");
+		int b=sc.nextInt();
+		System.out.println("sum:" +(a+b));
+		System.out.println("diff:" +(a-b));
+		System.out.println("multi:" +(a*b));
+		System.out.println("div:" +(a/b));
+	}
+}*/
+
+//Take marks of a student and print the grade..
+/*import java.util.Scanner;
+public class day02{
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter marks:");
+		int marks=sc.nextInt();
+		if(marks>=90)
+			System.out.println("Grade A..");
+		else if(marks>=75)
+			System.out.println("Grade B..");
+		else if(marks>=60)
+			System.out.println("Grade C..");
+		else
+			System.out.println("Fail");
+	}
+}*/
+
