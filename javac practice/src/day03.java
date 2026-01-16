@@ -32,7 +32,7 @@ public class day03{
 	}
 }*/
 //Take a number and check whether it is a 3-digit number or no...
-import java.util.Scanner;
+/*import java.util.Scanner;
 public class day03{
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
@@ -42,5 +42,28 @@ public class day03{
 			System.out.println("it is a three digit number...");
 		else
 			System.out.println("not a three digit number...");
+	}
+}*/
+//Take a character and check whether it is a vowel or consonant...
+import java.util.Scanner;
+public class day03{
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter a char..");
+		char ch=sc.next().charAt(0);
+		ch=Character.toLowerCase(ch);
+		if(ch>='a' && ch<='z') {
+			if(ch=='a' || ch=='e' || ch=='i' || ch=='o' || ch=='u') {
+				System.out.println("it is vowel,,");
+				}
+			else {
+				System.out.println("it is consonant");
+				}
+	
+		}
+		else {
+			System.out.println("it is not a alphabet..");
+		}
+		
 	}
 }
