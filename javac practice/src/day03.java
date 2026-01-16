@@ -18,7 +18,7 @@ public class day03 {
 
 }*/
 //Take age as input and check whether the person is eligible to vote...
-import java.util.Scanner;
+/*import java.util.Scanner;
 public class day03{
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
@@ -29,5 +29,18 @@ public class day03{
 		else 
 			System.out.println("not eligible for vote");
 		
+	}
+}*/
+//Take a number and check whether it is a 3-digit number or no...
+import java.util.Scanner;
+public class day03{
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter a number:");
+		int num=sc.nextInt();
+		if(num>=100 && num<=999 || num<=-100 && num>=-999)
+			System.out.println("it is a three digit number...");
+		else
+			System.out.println("not a three digit number...");
 	}
 }
