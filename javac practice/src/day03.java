@@ -1,5 +1,5 @@
 //take a character and check whether uppercase or lowercase...
-import java.util.Scanner;
+/*import java.util.Scanner;
 public class day03 {
 
 	public static void main(String[] args) {
@@ -16,4 +16,18 @@ public class day03 {
 
 	}
 
+}*/
+//Take age as input and check whether the person is eligible to vote...
+import java.util.Scanner;
+public class day03{
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter age:");
+		int age=sc.nextInt();
+		if(age>=18)
+			System.out.println("eligible for vote");
+		else 
+			System.out.println("not eligible for vote");
+		
+	}
 }
