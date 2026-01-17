@@ -81,8 +81,8 @@ public class day03{
 	}
 }*/
 
-//Armstring no...
-import java.util.Scanner;
+//Armstrong no...
+/*import java.util.Scanner;
 public class day03{
 	public static void main(String[] args) {
 	Scanner sc =new Scanner(System.in);
@@ -101,5 +101,13 @@ public class day03{
 		System.out.println(original+ "not a armstrong num..");
 	sc.close();
 	}
-}
+}*/
 
+//Print numbers from 1 to 20 using a loop.
+public class day03{
+	public static void main(String[] args) {
+		for(int i=1;i<=20;i++) {
+			System.out.println(i);
+		}
+	}
+}
