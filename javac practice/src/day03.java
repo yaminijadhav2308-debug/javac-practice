@@ -104,10 +104,10 @@ public class day03{
 }*/
 
 //Print numbers from 1 to 20 using a loop.
-public class day03{
+/*public class day03{
 	public static void main(String[] args) {
 		for(int i=1;i<=20;i++) {
 			System.out.println(i);
 		}
 	}
-}
+}*/
