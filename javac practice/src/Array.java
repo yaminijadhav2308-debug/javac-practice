@@ -1,5 +1,5 @@
 // Take a number and print its multiplication table...
-import java.util.Scanner;
+/*import java.util.Scanner;
 public class Array {
 
 	public static void main(String[] args) {
@@ -9,16 +9,13 @@ public class Array {
 		for(int i=1;i<=10;i++) {
 			System.out.println(num + "x" + i + "=" +(num*i));
 		}
-		
-		
-		
-		
-		
-		
-	
+		}
+}*/
 
+//Print numbers from 1 to 20 using a loop...
+public class Array{
+	public static void main(String[] args) {
+		for(int i=1;i<=20;i++)
+			System.out.println(i);
 	}
-
 }
-
-
