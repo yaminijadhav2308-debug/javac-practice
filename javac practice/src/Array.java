@@ -21,12 +21,23 @@ public class Array {
 }*/
 
 //Print all even numbers between 1 and 100...
-public class Array{
+/*public class Array{
 	public static void main(String[] args) {
 		for(int i=1;i<=100;i++) {
 			if(i%2==0)
 				System.out.println(i);
 			
 		}
+	}
+}*/
+
+//Find the sum of first 10 natural numbers...
+public class Array{
+	public static void main(String[] args) {
+		int sum=0;
+		for(int i=1;i<=10;i++) {
+		  sum = sum + i;
+		}
+		System.out.println("Sum of first 10 natural number.." +sum);
 	}
 }
