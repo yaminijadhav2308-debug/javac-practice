@@ -32,12 +32,21 @@ public class Array {
 }*/
 
 //Find the sum of first 10 natural numbers...
-public class Array{
+/*public class Array{
 	public static void main(String[] args) {
 		int sum=0;
 		for(int i=1;i<=10;i++) {
 		  sum = sum + i;
 		}
 		System.out.println("Sum of first 10 natural number.." +sum);
+	}
+}*/
+
+public class Array{
+	public static void main(String[] args) {
+		for(int i=1;i<=5;i++) {
+			System.out.println("Hello world");
+		}
+		
 	}
 }
