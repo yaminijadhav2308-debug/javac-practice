@@ -18,6 +18,7 @@ op;
 *****
 ******/
 
+
 /*public class Patterns{
 	public static void main(String[] args) {
 		int a=4;
@@ -82,7 +83,7 @@ op:
 	**
 	*     */
 
-public class Patterns{
+/*public class Patterns{
 	public static void main(String[] args) {
 		int n=4;
 		for(int i=1;i<=n;i++) {
@@ -96,3 +97,8 @@ public class Patterns{
 		}
 	}
 }
+op:
+	    *
+	   **
+	  ***
+	 ****   */
