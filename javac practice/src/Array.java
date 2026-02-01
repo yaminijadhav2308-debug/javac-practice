@@ -42,11 +42,58 @@ public class Array {
 	}
 }*/
 
-public class Array{
+/*public class Array{
 	public static void main(String[] args) {
 		for(int i=1;i<=5;i++) {
 			System.out.println("Hello world");
 		}
 		
+	}
+}*/
+
+/*public class Array{
+	public static void main(String[] args) {
+		int[] marks=new int[3];
+		marks[0]=98;
+		marks[1]=95;
+		marks[2]=96;
+		for(int i=0;i<3;i++) {
+			System.out.println(marks[i]);		
+			}
+	}
+}*/
+
+//take user input..
+/*import java.util.Scanner;
+public class Array{
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		int size=sc.nextInt();
+		int number[]=new int[size];
+		for(int i=0;i<size;i++) {
+			number[i]=sc.nextInt();
+		}
+		for(int i=0;i<size;i++) {
+			System.out.println(number[i]);
+		}
+	}
+}*/
+
+//take an array as input from the user search for a given number x and print the index at which it occurs..
+import java.util.Scanner;
+public class Array{
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		int size=sc.nextInt();
+		int number[]=new int[size];
+		for(int i=0;i<size;i++) {
+			number[i]=sc.nextInt();
+		}
+		int x=sc.nextInt();
+		for(int i=0;i<number.length;i++) {
+			if(number[i]==x) {
+				System.out.println("x found at index;" +i);
+			}
+		}
 	}
 }
