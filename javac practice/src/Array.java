@@ -80,7 +80,7 @@ public class Array{
 }*/
 
 //take an array as input from the user search for a given number x and print the index at which it occurs..
-import java.util.Scanner;
+/*import java.util.Scanner;
 public class Array{
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
@@ -95,5 +95,55 @@ public class Array{
 				System.out.println("x found at index;" +i);
 			}
 		}
+	}
+}*/
+
+//Find largest element;
+/*public class Array{
+	public static void main(String[] args) {
+		int arr[] = {3,2,1,5,6};
+		int largest=arr[0];
+		for(int i=0;i<arr.length;i++) {
+			if(arr[i]>largest) {
+				largest=arr[i];
+			}
+		}
+		System.out.println(largest);
+	}
+}*/
+
+//If array is sorted or not
+/*public class Array{
+	public static void main(String[] args) {
+		int arr[]= {1,2,3,3,4,1};
+		boolean isSorted=true;
+		for(int i=1;i<arr.length;i++) {
+			if(arr[i]<arr[i-1]) {
+				isSorted=false;
+				break;
+			}
+			
+		}
+		if(isSorted) {
+			System.out.println("Sorted");
+		}else {
+			System.out.println("Not sorted");
+		}
+	}
+}*/
+
+//remove duplicate element from array..
+public class Array{
+	public static void main(String[] args) {
+		int arr[]= {1,1,2,3,3,4};
+		int i=0;
+		for(int j=1;j<arr.length;j++) {
+			if(arr[i]!=arr[j]) {
+				arr[i+1]=arr[j];
+				i++;
+				
+			}
+		}
+		System.out.println(i+1);
 	}
 }
