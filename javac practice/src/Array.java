@@ -133,7 +133,7 @@ public class Array{
 }*/
 
 //remove duplicate element from array..
-public class Array{
+/*public class Array{
 	public static void main(String[] args) {
 		int arr[]= {1,1,2,3,3,4};
 		int i=0;
@@ -146,4 +146,4 @@ public class Array{
 		}
 		System.out.println(i+1);
 	}
-}
+}*/
